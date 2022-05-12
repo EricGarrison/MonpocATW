@@ -14,6 +14,7 @@ import { DevourersComponent } from './devourers/devourers.component';
 import { FiendsComponent } from './fiends/fiends.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 import { MapComponent } from './map/map.component';
+import { BasicRulesComponent } from './basic-rules/basic-rules.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MapComponent } from './map/map.component';
     DevourersComponent,
     FiendsComponent,
     TopNavComponent,
-    MapComponent
+    MapComponent,
+    BasicRulesComponent
   ],
   imports: [
     BrowserModule,
