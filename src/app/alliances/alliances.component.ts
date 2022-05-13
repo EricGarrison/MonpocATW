@@ -25,9 +25,9 @@ export class AlliancesComponent implements OnInit {
     CthulLogo = './assets/logos/Faction-LordsOfCthul.png'
     M8DLogo = './assets/logos/faction-masters.png'
     MoleLogo = './assets/logos/Faction-SubterranUprising.png'
+    VegeLogo = './assets/logos/Faction-Vegetyrants.png'
     FGLogo = './assets/logos/Faction-FirstGuardians.png'
     AOLogo = './assets/logos/Faction-AncientOnes.png'
-    VegeLogo = './assets/logos/Faction-Vegetyrants.png'
 
   constructor() { }
 
