@@ -1,0 +1,10 @@
+body{
+    background: #000;
+}
+
+table{
+    background: #FFFFFF;
+    opacity: 30%;
+    display: flex;
+    max-width: 80%;
+}
