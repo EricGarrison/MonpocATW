@@ -36,8 +36,12 @@ p{
     margin-right:auto;
 }
 
-.fiends, .devourers, .invaders, .paragons, .collaborators, .radicals {
+.fiends, .devourers, .invaders, .paragons, .collaborators, .radicals, .basic{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+}
+
+.flavorText{
+    font-style: italic;
 }
