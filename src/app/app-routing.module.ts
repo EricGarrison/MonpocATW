@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AlliancesComponent } from './alliances/alliances.component';
 import { RulesComponent } from './rules/rules.component';
+import { BasicRulesComponent } from './basic-rules/basic-rules.component';
 import { MapComponent } from './map/map.component';
 import { ParagonsComponent } from './paragons/paragons.component';
 import { RadicalsComponent } from './radicals/radicals.component';
@@ -13,10 +14,11 @@ import { FiendsComponent } from './fiends/fiends.component';
 
 const routes: Routes = [
     { path: 'home', component: HomeComponent },
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'alliances', component: AlliancesComponent },
     { path: 'rules', component: RulesComponent },
+    { path: 'basic-rules', component: BasicRulesComponent },
     { path: 'map', component: MapComponent },
-    { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'paragons', component: ParagonsComponent },
     { path: 'paragon', component: ParagonsComponent },
     { path: 'radicals', component: RadicalsComponent },
